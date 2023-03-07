@@ -1,5 +1,5 @@
 # ExpressionParser
-A custom build expression parser that can convert a string of conditions with and/or logic and braces that can then be evaluated with an integer value.
+An expression parser that can convert a string of conditions with "and/or" logic and braces. It can then be used to evaluate any integer value.
 
 I was working on an system that is completely data driven with conditions being setup based on JSON files, and of those conditions a common requirement was comparing a value to certain conditions. This small class was constructed to parse conditional expressions with basic and/or logic (including braces) and then evaluate a value returning true or false if the condition is met.
 
